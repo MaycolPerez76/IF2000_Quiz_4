@@ -27,17 +27,16 @@ public class Quiz {
     }
     
  
-public class Vocales {
 
     public void contarVocales(Scanner sc) {
         System.out.println("Ingrese una palabra y contaré cuántas vocales tiene:");
-        String palabra = sc.nextLine().toLowerCase(); // convierte todo a minúscula, que loquillo eso no lo sabia
+        String palabra = sc.nextLine().toLowerCase();
         int contador = 0;
 
         for (int i = 0; i < palabra.length(); i++) {
             char letra = palabra.charAt(i);
             if (letra == 'a' || letra == 'e' || letra == 'i' || letra == 'o' || letra == 'u') {
-                contador++;  // practicamente lo mismo que las figuras
+                contador++; 
             }
         }
 
@@ -46,5 +45,3 @@ public class Vocales {
 }
 
     
-    
-}

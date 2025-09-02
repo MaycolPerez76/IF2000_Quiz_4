@@ -16,5 +16,6 @@ public class IF_2000_Quiz_4 {
         Scanner sc = new Scanner(System.in);
         Quiz quiz = new Quiz();
       quiz.tablaMultiplicar(sc);
+      quiz.contarVocales(sc);
     }
 }
